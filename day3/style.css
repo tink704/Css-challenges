@@ -61,3 +61,24 @@
         font-weight: bold;
         cursor: pointer;      
     }
+    .add:hover{
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    .add:active{
+        background-color: rgb(204, 173, 16);
+    }
+    .get{
+        background-color: rgb(121, 82, 179);
+        border: none;
+        color: white;
+        height: 30px;
+        width: 130px;
+        cursor: pointer;   
+        border-radius: 2px;   
+    }
+    .get:hover{
+        background-color: rgb(86, 57, 129);
+    }
+    .get:active{
+        background-color: rgb(53, 36, 80);
+    }
