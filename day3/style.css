@@ -82,3 +82,21 @@
     .get:active{
         background-color: rgb(53, 36, 80);
     }
+    .save{
+        background-color: white;
+        border: solid 2px rgb(10, 102, 194);
+        color: rgb(10, 102, 194);
+        height: 30px;
+        width: 100px;
+        cursor: pointer;   
+        border-radius: 15px;   
+    }
+    .save:hover{
+        background-color: rgb(10, 102, 194);
+        color: white;
+    }
+    .save:active{
+        opacity: 0.3;
+        transition: 0.3s;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    }
